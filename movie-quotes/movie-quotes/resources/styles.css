@@ -1,0 +1,11 @@
+body {
+	font-family: "Courier New", Courier, monospace;
+	color: white;
+	background-color: black;
+	width: 800px;
+	margin-left: 100px;
+	margin-top: 40px;
+}
+h3{
+	color: red;
+}
