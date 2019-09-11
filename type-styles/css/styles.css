@@ -1,0 +1,45 @@
+body{
+	font-family: Open Sans, Helvetic, Arial, sans-serif;
+	font-weight: 400;
+	margin-left: 60px;
+	margin-top: 40px;
+	font-size: 16px;
+	line-height: 1.4;
+	color:#000000;/*this is black, can also be "black" or rgb(0,0,0) or rgba with a as transparency*/
+}
+h1{
+	font-size: 1.5em;/*related to overall size*/
+	margin-block-end:0em;
+
+}
+header{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+span{
+	background-color: lightblue;
+}
+
+ex1{font-weight: bold;}
+ex2{font-style: italic;}
+ex3{letter-spacing: .3em;}
+ex4{letter-spacing: -0.06em;}
+ex5{text-transform: uppercase;}
+ex6{text-transform: lowercase;}
+ex7{text-transform: capitalize;}
+ex8{text-decoration: underline;}
+ex9{text-decoration: line-through;}
+ex10{text-decoration: overline;}
+
+.control{
+	margin-block-start:0em;
+	margin-block-end:0em;
+}
+.caption{
+	margin-block-start:0.1em;
+	margin-block-end:0em;
+	font-family: Inconsolata, Open Sans, Helvetic, Arial, sans-serif;
+	font-weight: lighter;
+	font-size: 12px;
+	line-height: 1.5;
+}
