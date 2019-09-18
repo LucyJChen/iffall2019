@@ -1,0 +1,48 @@
+header{
+	margin-bottom: 3rem; /*challenge 1*/
+}
+p{
+	line-height: 1.6; /*challenge 2*/
+}
+.see-all{
+	font-size: .8em;
+	text-transform: uppercase; /*challenge 3*/
+}
+.shows h1{
+	font-size: 2.5rem; /*challenge 4*/
+	border-top:4px solid black; /*challenge 9*/
+	font-weight: lighter; /*challenge 6*/
+}
+h2{
+	font-size: 1rem;
+	text-transform: uppercase; /*challenge 5*/
+}
+img{
+	width: 100%; /*challenge 7*/
+}
+.cast li{
+	width: 25%; /*challenge 8*/
+}
+li.selected a{
+	font-weight: bold;
+	color: black; /*challenge 10*/
+}
+.cast div{
+	font-size: .8rem;/*challenge 11*/
+}
+img + div{
+	font-weight: bold; /*challenge 12*/
+}
+div + div{
+	font-style: italic; /*challenge 13*/
+}
+
+#game-of-thrones .seasons li:last-of-type:after{
+	content: "*"; /*challenge 14*/
+}
+
+#game-of-thrones .seasons:after{
+	font-size: .7rem;
+	color: #999;
+	content: "Final Season"; /*challenge 15*/
+}
