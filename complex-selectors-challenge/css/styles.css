@@ -16,6 +16,7 @@ p{
 h2{
 	font-size: 1rem;
 	text-transform: uppercase; /*challenge 5*/
+	font-weight: lighter; /*challenge 6*/
 }
 img{
 	width: 100%; /*challenge 7*/
