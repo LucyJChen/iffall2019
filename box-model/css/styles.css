@@ -1,0 +1,115 @@
+body{
+	font-family: Archivo Narrow;
+	margin: 0;
+	padding: 0;
+	letter-spacing: 0.01em;
+}
+div:after{
+	content:"";
+	display: black;
+	clear: both;
+}
+#firstsection{
+	background-image: url(../resources/eggtartcover.jpg);
+	background-size: cover;
+	margin:0;
+}
+#header {
+	color: white;
+	margin:0;
+	padding-top: 160px;
+	padding-bottom: 182px;
+}
+#secondsection{
+	background-color: black;
+	color: white;
+}
+#mainpara{
+	width: 960px;
+	margin: auto;
+	padding-top: 10px;
+	line-height: 1.5;
+	padding-bottom: 50px;
+}
+#large{
+	width: 400px;
+	height: 300px;
+	float: right;
+	margin-left: 50px;
+	margin-bottom: 20px;
+	object-fit: cover;
+}
+.row{
+	width: 1157px;
+	margin: auto;
+}
+.column{
+	width: 520px;
+	margin: auto;
+	margin-right: -45px;
+	margin-bottom: 25px;
+	display: inline-block;
+}
+#picturesection{
+	margin-bottom: 42px;
+}
+#phototext{
+	padding-top: 10px;
+}
+#small{
+	width: 200px;
+	height: 150px;
+	float: left;
+	margin-right: 10px;
+	margin-left: 100px;
+	object-fit: cover;
+}
+#lastsection{
+	background-color: rgb(232,155,0);
+	color: white;
+}
+#smallpara{
+	width: 700px;
+	margin: auto;
+	padding-top: 7px;
+	padding-bottom: 60px;
+}
+#final{
+	background-color: black;
+	color: white;
+}
+#close{
+	width:950px;
+	margin:auto;
+	text-align: left;
+	padding: 47px;
+}
+h1{
+	margin:0;
+	text-align: center;
+	font-size: 4.5em;
+	letter-spacing: 0.03em;
+}
+h2{
+	margin: 0.8em;
+	text-align: center;
+	font-size: 2.5em;
+	letter-spacing: 0.02em;
+}
+h3{
+	margin: 0;
+	text-align: center;
+	font-size: 1.8em;
+	letter-spacing: 0.01em;
+}
+h4{
+	font-size: 1.6em;
+	text-align: center;
+}
+h5{
+	font-weight: bold;
+	margin: 0;
+	margin-bottom: 10px;
+	font-size: 1.2em;
+	letter-spacing: 0.01em;
+}
