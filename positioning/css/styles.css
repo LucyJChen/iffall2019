@@ -1,0 +1,30 @@
+#firstsection > aside{
+	float: right; 
+}
+#secondsection{
+	position: relative;
+}
+#secondsection > aside{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+#thirdsection > aside{
+	position: fixed;
+	background-color: green;
+	top: 0;
+	right:0;
+}
+#red{
+	background-color: red;
+	position: absolute;
+	top: 2050px;
+	right:700px;
+	z-index: +1;
+}
+#black{
+	background-color: black;
+	position: absolute;
+	top: 2060px;
+	right:690px;
+}
