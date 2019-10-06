@@ -14,17 +14,21 @@
 	background-color: green;
 	top: 0;
 	right:0;
+	z-index: 2;
+}
+#redblacksection{
+	position: relative;
 }
 #red{
 	background-color: red;
 	position: absolute;
-	top: 2050px;
-	right:700px;
-	z-index: +1;
+	top: 235px;
+	left: 345px;
+	z-index: 1;
 }
 #black{
 	background-color: black;
 	position: absolute;
-	top: 2060px;
-	right:690px;
+	top: 255px;
+	left: 365px;
 }
