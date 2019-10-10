@@ -1,0 +1,331 @@
+body {
+	color: black;
+	font-family: 'Open Sans';
+	width: 1000px;
+	max-width: 80%;
+	margin: 3rem auto;
+}
+h1 {
+ 	font-size: 40px;
+ 	margin-bottom: 20px;
+}
+.buttons {
+	margin: 0 10px 10px 0;
+	padding: 20px;
+	width: 250px;
+	height: 200px;
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	text-align: center;
+}
+a#btn_facebook {
+	display: inline-block;
+	height: 70px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	margin: auto;
+	margin-top: 40px;
+	padding: 0px 12px 0 12px;
+	color: #4267b2;
+	font-size: 50px;
+	text-decoration: none;	
+}
+a#btn_facebook:hover {
+	background-color: #4267b2;
+	color: white;
+}
+a#btn_michaelkors {
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	margin: auto;
+	margin-top: 60px;
+	padding: 10px 20px 0 20px;
+	background-color: #fff;
+	color: #000;
+	font-size: 18px;
+	font-family: 'Arial', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+a#btn_michaelkors:hover {
+	text-decoration: underline;
+}
+a#btn_exploding {
+	display: inline-block;
+	height: 45px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	margin: auto;
+	margin-top: 60px;
+	padding: 10px 20px 0px 20px;
+	background-color: #ba1c11;
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+a#btn_exploding:hover {
+	background-image: url(../images/flame.jpg);
+	background-size: cover;
+	color: white;
+}
+a#btn_moo {
+	display: inline-block;
+	height: 45px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	margin: auto;
+	margin-top: 60px;
+	padding: 9px 20px 0px 20px;
+	background-color: #29ab75;
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	text-decoration: none;
+}
+a#btn_moo:hover {
+	background-color: #fff;
+	border: 2px solid #29ab75;
+	color: #29ab75;
+	padding: 7px 20px 0px 20px;
+}
+a#btn_insta {
+	display: inline-block;
+	height: 100px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	margin: auto;
+	margin-top: 35px;
+	padding: 0px 50px 0px 50px;
+	background-image: url(../images/insta.png);
+	background-size: cover;
+}
+a#btn_insta:hover {
+	background-image: url(../images/instasolid.png);
+	background-size: cover;
+	padding: 0px 50px 0px 50px;
+}
+a#btn_newyorker {
+	display: inline-block;
+	height: 50px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	margin: auto;
+	margin-top: 67px;
+	margin-left: 56px;
+	padding: 0px 190px 0px 10px;
+	background-image: url(../images/thenewyorkerless.png);
+	background-size: 152px;
+	background-repeat: no-repeat;
+}
+a#btn_newyorker:hover {
+	background-image: url(../images/newyorker.png);
+	background-size: 207px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 50px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	margin-left: 1px;
+	margin-top: 60px;
+	padding: 0px 100px 0px 100px;
+	background-color: white;
+}
+a#btn_lyft{
+	display: inline-block;
+	height: 47px;
+	box-sizing: border-box;
+	border-radius: 8px;
+	margin: auto;
+	margin-top: 60px;
+	padding: 5px 12px 0px 12px;
+	background-color: #fff;
+	color: #ff00bf;
+	font-size: 30px;
+	font-family: 'Montserrat';
+	font-weight: 900;
+	text-decoration: none;
+}
+a#btn_lyft:hover{
+	color:white;
+	background-color: #ff00bf;
+}
+a#btn_ibm{
+	display: inline-block;
+	height: 50px;
+	box-sizing: border-box;
+	border-radius: 0px;
+	margin: auto;
+	margin-top: 60px;
+	padding: 5px 10px 0px 3px;
+	background-color: #fff;
+	color: #006699;
+	font-size: 40px;
+	font-family: 'menInBlue';
+	letter-spacing: 2px;
+	font-weight: 900;
+	text-decoration: none;
+	-webkit-animation:colorchange 4s infinite alternate;
+}
+@-webkit-keyframes colorchange {
+      0% {color: #006699;}
+      25% {color: green;}
+      50% {color: orange;}
+      75% {color: red;}
+      100% {color: violet;}
+    }
+@font-face{
+	font-family: menInBlue;
+	src: url(../images/MIB.ttf);
+}
+a#btn_ibm:hover{
+	-webkit-animation: none;
+	background-color: #006699;
+	color: white;
+}
+a#btn_colorrun{
+	display: inline-block;
+	height: 47px;
+	box-sizing: border-box;
+	border-radius: 0px;
+	margin: auto;
+	margin-top: 60px;
+	padding: 4px 15px 0px 15px;
+	background-color: #ff3d8e;
+	color: #f8fc05;
+	font-size: 30px;
+	font-family: 'Lobster';
+	letter-spacing: 1px;
+	font-weight: bold;
+	text-decoration: none;
+}
+a#btn_colorrun:hover{
+	color:#05fcec;
+	background-color: #fc8105;
+}
+a#btn_oldnavy{
+	display: inline-block;
+	height: 45px;
+	box-sizing: border-box;
+	border-radius: 50%;
+	margin: auto;
+	margin-top: 20px;
+	padding: 11px 15px 0px 15px;
+	background-color: #163E69;
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Roboto Condensed';
+	font-weight: bold;
+	text-decoration: none;
+}
+a#btn_oldnavy:hover{
+	color: #163E69;
+	background-color: white;
+	border: 2px so
+	margin-top: 20px;
+	padding: 5px 15px 0px 15px;
+	background-color: white;
+	color: black;lid #163E69;
+	padding: 9px 15px 0px 15px;
+}
+a#btn_fitbit{
+	display: inline-block;
+	height: 45px;
+	box-sizing: border-box;
+	border-radius: 0%;
+	margin: auto;
+	margin-top: 20px;
+	padding: 5px 10px 0px 10px;
+	color: black;
+	font-size: 30px;
+	font-family: 'fitbit';
+	text-decoration: none;
+}
+a#btn_fitbit:hover{
+	color: white;
+	background-color: #61c6c9;
+}
+img{
+	width: 50px;
+}
+@font-face{
+	font-family: fitbit;
+	src: url(../images/Seville-Regular.ttf);
+}
+a#btn_cocacola{
+	display: inline-block;
+	height: 120px;
+	box-sizing: border-box;
+	border-radius: 0px;
+	margin: auto;
+	margin-top: 5px;
+	padding: 10px 80px 0px 30px;
+	background-image: url(../images/coca.png);
+	background-size: 100px;
+	background-repeat: no-repeat;
+}
+a#btn_cocacola:hover{
+	background-size: 110px;
+	padding: 0px 80px 0px 40px;
+	margin-top: 0px;
+}
+a#btn_nike{
+	display: inline-block;
+	height: 50px;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 20px;
+	padding: 11px 60px 0px 60px;
+	background-image: url(../images/nike.png);
+	background-size: 120px;
+	repeat:no-repeat;
+}
+a#btn_nike:hover{
+	background-color: yellow;
+}
+@font-face{
+	font-family: harryPotterFont;
+	src: url(../images/ParryHotter.ttf);
+}
+a#btn_potter{
+	display: inline-block;
+	height: 60px;
+	box-sizing: border-box;
+	border-radius: 30px;
+	margin: auto;
+	margin-top: 20px;
+	padding: 5px 20px 8px 22px;
+	background-color: black;
+	color: #fff;
+	font-size: 25px;
+	font-family: harryPotterFont;
+	text-decoration: none;
+}
+a#btn_potter:hover{
+	background-color: #7f5fb3;
+}
+a#btn_bissingers{
+	display: inline-block;
+	height: 60px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	margin: auto;
+	margin-top: 20px;
+	padding: 0px 20px 8px 20px;
+	background-color: white;
+	color: #ebc109;
+	font-size: 35px;
+	font-family: bissingers;
+	text-decoration: none;
+}
+a#btn_bissingers:hover{
+	color: red;
+}
+@font-face{
+	font-family: bissingers;
+	src: url(../images/carta-magna-line.ffp.ttf);
