@@ -1,5 +1,5 @@
 body{
-	width: 400px;
+	width: 350px;
 	margin: 0;
 	padding: 0;
 	line-height: 22px;
@@ -84,7 +84,7 @@ section{
 
 .step{
 	display: inline-block;
-	max-width: 290px;
+	max-width: 268px;
 	margin-top: 4px;
 	margin-bottom: 14px;
 }
@@ -106,8 +106,8 @@ section{
 	line-height: 1.5em;
 }
 img{
-	width: 380px;
-	height: 240px;
+	width: 310px;
+	height: 200px;
 	margin-bottom: 10px;
 }
 .small{
