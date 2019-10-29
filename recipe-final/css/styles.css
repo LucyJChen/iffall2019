@@ -1,5 +1,5 @@
 body{
-	width: 415px;
+	width: 410px;
 	margin: 0;
 	padding: 0;
 	line-height: 22px;
@@ -36,8 +36,8 @@ h3{
 }
 
 section{
-	padding-left:20px;
-	padding-right: 20px;
+	padding-left:30px;
+	padding-right: 30px;
 	padding-bottom: 0;
 }
 #maininfo{
@@ -48,7 +48,7 @@ section{
 	background-color: #cf1b11;
 }
 #maininfo div{
-	width: 113px;
+	width: 110px;
 	text-align: center;
 	display: inline-block;
 	font-weight: bold;
@@ -84,7 +84,7 @@ section{
 
 .step{
 	display: inline-block;
-	width: 330px;
+	width: 308px;
 	margin-top: 4px;
 	margin-bottom: 15px;
 }
@@ -106,13 +106,13 @@ section{
 	line-height: 1.5em;
 }
 img{
-	width: 375px;
-	height: 200px;
+	width: 350px;
+	height: 210px;
 	margin-bottom: 15px;
 }
 .small{
-	width: 184px;
-	height: 150px;
+	width: 172px;
+	height: 172px;
 	display: inline-block;
 	margin-top: 10px;
 }
