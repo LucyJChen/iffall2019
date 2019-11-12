@@ -1,9 +1,83 @@
-@media (min-width: 640px){
-	body{
-		background-color: #eaf6ff;
-	}
+a{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 10;
+}
+body{
+	background-color: black;
+	color: white;
+	padding: 0;
+	margin: 0;
+}
+h1{
+	font-family: Spectral, serif;
+	font-size: 1.8em;
+}
+h2{
+	font-family: Spectral, serif;
+	font-style: italic;
+	text-align: right;
+	font-size: 1.3em;
+}
+img{
+	position: absolute;
+	right: 0;
+	height: 80%;
+	top: 10%;
+	z-index: -1;
+}
+section{
+	max-width: 35%;
+	position: absolute;
+	bottom: 10%;
+	left: 8%;
+}
+ 
+/*for mobile*/
+@media screen and (max-width: 430px){
 	h1{
-		font-size: 2.5rem;
+		font-size: 1.3em;
 	}
-
+	h2{
+		font-size: 1em;
+	}
+	img{
+		position: absolute;
+		width: 100%;
+		height: auto;
+		top: 6%;
+		z-index: -1;
+	}
+	section{
+		max-width: 80%;
+		width: 80%;
+		position: absolute;
+		bottom: 5%;
+	}
+}
+/*for tablet*/
+@media screen and (max-width: 700px) and (min-width: 431px){
+	h1{
+		font-size: 1.3em;
+	}
+	h2{
+		font-size: 1em;
+	}
+	img{
+		position: absolute;
+		right: 10%;
+		width: 80%;
+		height: auto;
+		top: 2%;
+		z-index: -1;
+	}
+	section{
+		max-width: 80%;
+		width: 80%;
+		position: absolute;
+		bottom: 5%;
+	}
 }
