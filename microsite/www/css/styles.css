@@ -1,0 +1,177 @@
+#nextpage{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 10;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Gibson;
+	font-size: 14pt;
+}
+h1{
+	font-family: IvyMode;
+	font-size: 140pt;
+	text-align: center;
+	color: white;
+
+}
+h2{
+	padding-top: 0px;
+	margin-top: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	font-family: IvyMode;
+	font-size: 24pt;
+}
+p{
+	width: 60%;
+	font-size: 15pt;
+	line-height: 20pt;
+}
+h3{
+	font-family: IvyMode;
+	display: inline-block;
+}
+h4{
+	padding: 0;
+	margin: 0;
+	font-size: 14pt;
+	line-height: 26pt;
+	font-family: IvyMode;
+}
+#main{
+	margin: 0;
+	background-image: url(../images/billydark.jpg);
+	background-size: cover;
+	padding-top: 1%;
+}
+div#big{
+	width: 15%;
+	margin-left: 6%;
+	margin-right: 6%;
+	display: inline-block;
+	color: white;
+	font-family: IvyMode;
+	font-size: 16pt;
+	text-align: center;
+	padding-bottom: 20pt;
+}
+#left{
+	margin-left: 15%;
+}
+#right{
+	margin-right: 15%;
+}
+#navigation{
+	border-bottom: 1px solid grey;
+	padding-left: 10%;
+	padding-top: 2%;
+	padding-bottom: 15px;
+	margin:0;
+}
+#text{
+	margin-left: 10%;
+	padding-bottom: 3%;
+	padding-top: 1%;
+}
+#footer{
+	padding-bottom: 15%;
+	padding-left: 10%;
+	background-color: #F4F4F4;
+	border-top: 1px solid grey;
+}
+
+
+
+
+
+div.gallery {
+	margin-top: .5em;
+	border: 2px solid white;
+	display: inline-block;
+	width: 155px;
+	height: 155px;
+	margin-left: 5px;
+}
+div#view{
+	float: left;
+	width: 300px;
+	height: 500px;
+}
+div#view img{
+	width: 300px;
+	height: 495px;
+	object-fit: cover;
+	margin-top: .5em;
+	border: 2px solid white;
+}
+div.gallery:hover {
+	border: 2px solid #f0d316;
+}
+div.gallery img{
+	width: 155px;
+	height: 155px;
+	object-fit: cover;
+
+}
+#gallery{
+	padding-bottom: 6%;
+	padding-left: 10%;
+}
+
+
+
+
+
+
+
+#drawer {
+	position: absolute;
+	top: 30px;
+	right: 6%;
+	width: 200px;
+	height: 60px;
+	font-size: 20pt;
+	text-align: center;
+}
+#drawer button.controls {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	border: none;
+	cursor: pointer;
+}
+#drawer.open button.controls {
+	/*background-color: white;*/
+}
+#drawer button.controls:after {
+	content: "2017";
+	font-family: IvyMode;
+/*	font-style: SemiBold;	
+*/	border: none;
+	background-color: white;			
+	font-size: 18pt;
+}
+#drawer .contents {
+	height: 0;
+	box-sizing: border-box;
+	text-align: center;
+	width: 100%;
+	color: black;
+	background-color: white;
+	transition: all .4s;
+	border: 1px solid grey;
+	opacity: 100%;
+}
+#drawer.open .contents {
+	height: 180px;
+	padding: 60px 10px 10px 10px;
+	opacity: 100%;
+}
