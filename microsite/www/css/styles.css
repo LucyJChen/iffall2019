@@ -6,6 +6,14 @@
 	right: 0;
 	z-index: 10;
 }
+a.page{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+a.page:hover{
+	color: #f0d316;
+}
 body{
 	margin: 0;
 	padding: 0;
@@ -49,7 +57,7 @@ h4{
 	background-size: cover;
 	padding-top: 1%;
 }
-div#big{
+div.big{
 	width: 15%;
 	margin-left: 6%;
 	margin-right: 6%;
@@ -140,11 +148,11 @@ div.gallery img{
 }
 #drawer button.controls {
 	position: absolute;
+	background-color: white;
 	right: 0;
-	bottom: 0;
+	top: 0;
 	height: 100%;
 	width: 100%;
-	background-color: white;
 	border: none;
 	cursor: pointer;
 }
@@ -154,13 +162,12 @@ div.gallery img{
 #drawer button.controls:after {
 	content: "2017";
 	font-family: IvyMode;
-/*	font-style: SemiBold;	
-*/	border: none;
+	border: none;
 	background-color: white;			
 	font-size: 18pt;
 }
 #drawer .contents {
-	height: 0;
+	height: 0px;
 	box-sizing: border-box;
 	text-align: center;
 	width: 100%;
@@ -174,4 +181,15 @@ div.gallery img{
 	height: 180px;
 	padding: 60px 10px 10px 10px;
 	opacity: 100%;
+}
+#drawer.open button.controls {
+	position: absolute;
+	right: 0;
+	top: 10px;
+	padding-bottom: 180px;
+	opacity: 0%;
+	height: 100%;
+	width: 100%;
+	border: none;
+	cursor: pointer;
 }
