@@ -1,0 +1,113 @@
+#home{
+	color: black;
+	text-decoration: none;
+	width: 50%;
+
+	padding-top: 5px;
+	margin-top: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	font-family: IvyMode, serif;
+	font-size: 40pt;
+}
+#home:hover{
+	color: #f0d316;
+}
+.source{
+	color: black;
+}
+.source:hover{
+	text-decoration-color:#f0d316;
+}
+a.page{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+a.page:hover{
+	color: #f0d316;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Gibson, sans-serif;
+	font-size: 14pt;
+}
+h1{
+	font-family: IvyMode, serif;
+	font-size: 140pt;
+	text-align: center;
+	color: white;
+
+}
+h2{
+	padding-top: 5px;
+	margin-top: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	font-family: IvyMode, serif;
+	font-size: 24pt;
+}
+p{
+	width: 60%;
+	font-size: 15pt;
+	line-height: 20pt;
+}
+h3{
+	font-family: IvyMode, serif;
+	display: inline-block;
+}
+h4{
+	padding: 0;
+	margin: 0;
+	font-size: 14pt;
+	line-height: 26pt;
+	font-family: IvyMode, serif;
+	color: black;
+	text-decoration: none;
+}
+
+#main{
+	margin: 0;
+	background-image: url(../images/billydark.jpg);
+	background-size: cover;
+	padding-top: 1%;
+}
+div.big{
+	width: 15%;
+	margin-left: 6%;
+	margin-right: 6%;
+	display: inline-block;
+	color: white;
+	font-family: IvyMode, serif;
+	font-size: 16pt;
+	text-align: center;
+	padding-bottom: 20pt;
+}
+#left{
+	margin-left: 15%;
+}
+#right{
+	margin-right: 15%;
+}
+#navigation{
+	border-bottom: 1px solid grey;
+	padding-left: 10%;
+	padding-top: 2%;
+	padding-bottom: 15px;
+	margin:0;
+}
+#text{
+	margin-left: 10%;
+	padding-bottom: 3%;
+	padding-top: 1%;
+}
+#footer{
+	padding-bottom: 15%;
+	padding-left: 10%;
+	background-color: #F4F4F4;
+	border-top: 1px solid grey;
+}
+
+
+

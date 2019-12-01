@@ -1,0 +1,57 @@
+#drawer {
+	position: absolute;
+	top: 30px;
+	right: 6%;
+	width: 200px;
+	height: 60px;
+	font-size: 20pt;
+	text-align: center;
+}
+#drawer button.controls {
+	position: absolute;
+	background-color: white;
+	right: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	border: none;
+	cursor: pointer;
+}
+#drawer.open button.controls {
+	/*background-color: white;*/
+}
+#drawer button.controls:after {
+	content: "2017";
+	font-family: IvyMode, serif;
+	border: none;
+	background-color: white;			
+	font-size: 18pt;
+}
+#drawer .contents {
+	height: 0px;
+	box-sizing: border-box;
+	text-align: center;
+	width: 100%;
+	color: black;
+	background-color: white;
+	transition: all .4s;
+	border: 1px solid grey;
+	opacity: 100%;
+	z-index: 10;
+}
+#drawer.open .contents {
+	height: 180px;
+	padding: 60px 10px 10px 10px;
+	opacity: 100%;
+}
+#drawer.open button.controls {
+	position: absolute;
+	right: 0;
+	top: 10px;
+	padding-bottom: 180px;
+	opacity: 0%;
+	height: 100%;
+	width: 100%;
+	border: none;
+	cursor: pointer;
+}
