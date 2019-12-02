@@ -8,6 +8,7 @@
 	padding-bottom: 0;
 	margin-bottom: 0;
 	font-family: IvyMode, serif;
+	font-weight: 700;
 	font-size: 40pt;
 }
 #home:hover{
@@ -15,6 +16,8 @@
 }
 .source{
 	color: black;
+	font-size: 15pt;
+	margin-bottom:20px;
 }
 .source:hover{
 	text-decoration-color:#f0d316;
@@ -30,12 +33,13 @@ a.page:hover{
 body{
 	margin: 0;
 	padding: 0;
-	font-family: Gibson, sans-serif;
+	font-family: canada-type-gibson, sans-serif;
 	font-size: 14pt;
 }
 h1{
 	font-family: IvyMode, serif;
 	font-size: 140pt;
+	font-weight: 700;
 	text-align: center;
 	color: white;
 
@@ -46,6 +50,7 @@ h2{
 	padding-bottom: 0;
 	margin-bottom: 0;
 	font-family: IvyMode, serif;
+	font-weight: 600;
 	font-size: 24pt;
 }
 p{
@@ -55,14 +60,16 @@ p{
 }
 h3{
 	font-family: IvyMode, serif;
+	font-weight: 600;
 	display: inline-block;
 }
 h4{
 	padding: 0;
 	margin: 0;
-	font-size: 14pt;
-	line-height: 26pt;
+	font-size: 20pt;
+	line-height: 30pt;
 	font-family: IvyMode, serif;
+	font-weight: 600;
 	color: black;
 	text-decoration: none;
 }
@@ -74,21 +81,22 @@ h4{
 	padding-top: 1%;
 }
 div.big{
-	width: 15%;
-	margin-left: 6%;
-	margin-right: 6%;
+	width: 20%;
+	margin-left: 4%;
+	margin-right: 4%;
 	display: inline-block;
 	color: white;
 	font-family: IvyMode, serif;
 	font-size: 16pt;
 	text-align: center;
 	padding-bottom: 20pt;
+	vertical-align: middle;
 }
 #left{
-	margin-left: 15%;
+	margin-left: 10%;
 }
 #right{
-	margin-right: 15%;
+	margin-right: 10%;
 }
 #navigation{
 	border-bottom: 1px solid grey;
@@ -108,6 +116,40 @@ div.big{
 	background-color: #F4F4F4;
 	border-top: 1px solid grey;
 }
-
-
-
+#footer p{
+	margin: 0;
+	margin-top: 7px;
+}
+li{
+	list-style-type: none;
+	padding: none;
+	margin: none;
+}
+#historyimages{
+	margin-left: 10%;
+	padding-bottom: 5%;
+}
+.mainpage{
+	display: inline-block;
+	margin-right: 5px;
+	width:70%;
+	padding: 0;
+	margin-top: 0;
+}
+span{
+	display: block;
+    position: relative;
+    bottom: 45px;
+    width: 70%;
+ 	padding: 12px;
+ 	box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.7);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    z-index: 10;
+    color: white;
+    /*margin-right: 0;*/
+    /*padding-right: 0;*/
+}

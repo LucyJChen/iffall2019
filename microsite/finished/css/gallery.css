@@ -1,5 +1,5 @@
 #gallery{
-	padding-bottom: 20%;
+	padding-bottom: 55%;
 	max-width: 60%;
 	margin-left: 10%;
 
@@ -115,6 +115,8 @@ ul.pgwSlider > li img,
     min-height: 100%;
     display: block;
     transition: margin-top 250ms linear;
+    position: relative;
+    bottom: 30%;
 }
 
 .pgwSlider .ps-prevIcon {
