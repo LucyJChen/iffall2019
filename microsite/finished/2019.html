@@ -26,6 +26,24 @@
 	<a href="2017.html"></a>
 	<a href="2018.html"></a>
 	<a href="2019.html"></a>
+	<style type="text/css">
+		#drawer.open .contents a:hover{
+			background-image: linear-gradient(to left, violet, indigo, blue, green, orange, red);   -webkit-background-clip: text;
+  			color: transparent;
+		}
+		#home:hover{
+			background-image: linear-gradient(to left, violet, indigo, blue, green, orange, red);   -webkit-background-clip: text;
+  			color: transparent;
+		}
+		#drawer button:hover{
+			background-image: linear-gradient(to left, violet, indigo, blue, green, orange, red);   -webkit-background-clip: text;
+  			color: transparent;
+		}
+		.source:hover{
+  			background-image: linear-gradient(to left, violet, indigo, blue, green, orange, red);  -webkit-background-clip: text;
+  			text-decoration-color: magenta;
+		}
+	</style>
 </head>
 <body>
 <!-- 	<a id="home" href="index.html"></a>
@@ -42,9 +60,14 @@
 		</div>
 	</section>
 	<section id="text">
-		<h2>2019: HEAVENLY BODIES</h2>
-		<p>For this year’s exhibition, Andrew Bolton—Wendy Yu Curator in Charge of The Costume Institute—drew on Susan Sontag’s seminal 1964 essay, “Notes on ‘Camp’.” The essay describes a sensibility marked by performance, excess, and a kind of winking bad taste, exemplified by figures like Oscar Wilde and outré aesthetic movements such as Art Nouveau. Among the pieces on display will be dazzling looks from Off-White, Schiaparelli, Moschino, Dior, Thom Browne, and lots more.</p>
-		<p>The invitation called for “Studied Triviality,” a phrase borrowed from a quote by Wilde. In a 1895 interview, the poet and playwright described his camp masterpiece The Importance of Being Earnest as “exquisitely trivial, a delicate bubble of fancy, and it has its philosophy. . . . That we should treat all the trivial things of life very seriously, and all the serious things of life with sincere and studied triviality.”</p>
+		<h2 class="page3">2019: NOTES ON CAMP</h2>
+		<div id="body">
+			<p>For this year’s exhibition, Andrew Bolton—Wendy Yu Curator in Charge of The Costume Institute—drew on Susan Sontag’s seminal 1964 essay, “Notes on ‘Camp’.” The essay describes a sensibility marked by performance, excess, and a kind of winking bad taste, exemplified by figures like Oscar Wilde and outré aesthetic movements such as Art Nouveau. Among the pieces on display will be dazzling looks from Off-White, Schiaparelli, Moschino, Dior, Thom Browne, and lots more.</p>
+			<p>The invitation called for “Studied Triviality,” a phrase borrowed from a quote by Wilde. In a 1895 interview, the poet and playwright described his camp masterpiece The Importance of Being Earnest as “exquisitely trivial, a delicate bubble of fancy, and it has its philosophy. . . . That we should treat all the trivial things of life very seriously, and all the serious things of life with sincere and studied triviality.”</p>
+		</div>
+		<div id="historyimages">
+			<img class="mainpage" src="images/pink.jpg"> <span class="caption">The Rocky Horror Picture Show, 1975</span>
+		</div>
 	</section>
 	<section id="gallery">
 		<ul class="pgwSlider">
@@ -54,12 +77,13 @@
   			<li><img src="images/camp1.jpg" ><span>Ezra Miller wearing Burberry</span></li>
   			<li><img src="images/ladygaga2.gif"><span>Lady Gaga wearing Maxwell</span></li>
   			<li><img src="images/gigi2.jpeg"><span>Gigi Hadid wearing Michael Kors</span></li>
+  			<li><img src="images/jared.jpeg"><span>Jared Leto wearing Gucci</span></li>
 		</ul>
 	</section>
 	<section id="footer">
 		<br><br><h2>Sources</h2>
-		<p><a href="https://en.wikipedia.org/wiki/Met_Gala">Met Gala Wikipedia </a></p>
-		<p><a href="https://www.vogue.com/article/what-is-the-met-gala-everything-we-know">Met Gala 2019: Everything You Need to Know </a></p>
+		<p><a class="source" href="https://en.wikipedia.org/wiki/Met_Gala">Met Gala Wikipedia </a></p>
+		<p><a class="source" href="https://www.vogue.com/article/what-is-the-met-gala-everything-we-know">Met Gala 2019: Everything You Need to Know </a></p>
 	</section>
 </body>
 </html>

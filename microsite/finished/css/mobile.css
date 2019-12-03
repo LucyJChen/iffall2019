@@ -1,0 +1,14 @@
+@media screen and (max-width: 900px){
+	h1{
+		font-size: 80pt;
+	}
+	h2{
+		font-size: 18pt;
+	}
+	div.big{
+		font-size: 12pt;
+	}
+	#gallery{
+		padding-top: 200pt;
+	}
+}

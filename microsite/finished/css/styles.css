@@ -11,17 +11,12 @@
 	font-weight: 700;
 	font-size: 40pt;
 }
-#home:hover{
-	color: #f0d316;
-}
 .source{
 	color: black;
 	font-size: 15pt;
 	margin-bottom:20px;
 }
-.source:hover{
-	text-decoration-color:#f0d316;
-}
+
 a.page{
 	display: block;
 	text-decoration: none;
@@ -54,7 +49,7 @@ h2{
 	font-size: 24pt;
 }
 p{
-	width: 60%;
+	/*width: 60%;*/
 	font-size: 15pt;
 	line-height: 20pt;
 }
@@ -78,6 +73,7 @@ h4{
 	margin: 0;
 	background-image: url(../images/billydark.jpg);
 	background-size: cover;
+	background-position: center;
 	padding-top: 1%;
 }
 div.big{
@@ -95,8 +91,18 @@ div.big{
 #left{
 	margin-left: 10%;
 }
+#left:hover a{
+	color: red;
+}
 #right{
 	margin-right: 10%;
+}
+#right:hover a{
+	background-image: linear-gradient(to left, violet, indigo, blue, green, orange, red);   -webkit-background-clip: text;
+  			color: transparent;
+}
+#center:hover a{
+	color: #f0d316;
 }
 #navigation{
 	border-bottom: 1px solid grey;
@@ -126,21 +132,25 @@ li{
 	margin: none;
 }
 #historyimages{
-	margin-left: 10%;
-	padding-bottom: 5%;
+	/*margin-left: 10%;*/
+	padding-top: 5%;
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
 }
 .mainpage{
 	display: inline-block;
-	margin-right: 5px;
-	width:70%;
+	/*margin-right: 5px;*/
+	width:100%;
 	padding: 0;
 	margin-top: 0;
 }
-span{
+.caption{
 	display: block;
+	font-size: 1rem;
     position: relative;
-    bottom: 45px;
-    width: 70%;
+    bottom: 40px;
+    width: 100%;
  	padding: 12px;
  	box-sizing: border-box;
     background: rgba(0, 0, 0, 0.7);
@@ -150,6 +160,21 @@ span{
     white-space: nowrap;
     z-index: 10;
     color: white;
-    /*margin-right: 0;*/
-    /*padding-right: 0;*/
+
+}
+#body{
+	display: inline-block;
+	width: 55%;
+	margin-right: 5%;
+}
+
+.page1{
+	color: #bf0202;
+}
+.page2{
+	color: #f0d316;
+}
+.page3{
+	background-image: linear-gradient(to left, violet, indigo, blue, green, orange, red);   -webkit-background-clip: text;
+  color: transparent;
 }
