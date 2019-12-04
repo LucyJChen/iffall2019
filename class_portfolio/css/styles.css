@@ -1,0 +1,43 @@
+body{
+	padding-top: 20px;
+	font-family: benton sans, sans-serif;
+	width: 90%;
+	margin: auto;
+}
+h1{
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
+.portfolio_item{
+	border: 1px solid grey;
+	display: inline-block;
+	width: 300px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	alignment-baseline: top;
+}
+.portfolio_item:hover{
+	opacity: 70%;
+}
+.portfolio_image{
+	width: 300px;
+	height: 350px;
+	border-bottom: 1px solid grey;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+p{
+	font-weight: 400;
+	margin: 10px;
+}
+h3{
+
+	margin: 10px;
+}
